@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            productDescription: 'Black ankle socks'
+            image: './assets/images/socks_green.jpg',
+            amazon: 'https://www.amazon.ca'
         }
     }
 })
